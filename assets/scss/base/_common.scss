@@ -1,0 +1,52 @@
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    margin: -1px;
+}
+
+section {
+    .inner {
+        padding: 0 30px;
+    }
+}
+
+h2.headline {
+    position: relative;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    font-size: 52px;
+
+    strong {
+        font-family: 'DaVinci';
+    }
+}
+
+.big_title {
+    font-size: 30vw;
+    white-space: nowrap;
+    font-family: 'DaVinci';
+    letter-spacing: -20px;
+    line-height: 0.95;
+
+}
+
+@media (max-width: 1280px) {
+    h2.headline {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 900px) {
+    section {
+        h2.headline {
+            font-size: 32px;
+        }
+    }
+
+    .big_title {
+        letter-spacing: -10px;
+    }
+}

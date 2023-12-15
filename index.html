@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juyoung's portfolio</title>
+    <link rel="icon" sizes="16x16" href="./assets/images/smile_footer.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/swiper.css">
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/swiper.js"></script>
+    <script src="./assets/js/split.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
+    <script src="./assets/js/main.js" defer></script>
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="preloader">
+        <div class="inner">
+            <div class="item">P</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">P</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">P</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">P</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">P</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">P</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">P</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">P</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">U</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">U</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">U</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">U</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">U</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">U</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">U</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">B</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">B</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">B</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">B</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">B</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">B</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">B</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">B</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">L</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">L</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">L</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">L</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">L</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">L</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">L</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">I</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">I</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">I</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">I</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">I</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">I</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">I</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">I</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">S</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">S</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">S</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">S</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">S</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">S</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">S</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">H</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">H</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">H</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">H</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">H</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">H</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">H</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">H</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">E</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">E</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">E</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">E</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">E</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">E</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">E</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">R</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">R</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">R</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">R</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">R</div>
+            <div class="item count" id="count">0</div>
+            <div class="item">R</div>
+            <div class="item count" id="count">0</div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="inner">
+            <div class="col_left">
+                <h1 class="logo col">
+                    <a href="#" class="split">Juyoung</a>
+                </h1>
+                <div class="col">
+                    <a href="#sc_work" class="btn_start split">
+                        Let's start
+                    </a>
+                </div>
+            </div>
+            <div class="col_right">
+                <div class="col">
+                    <button class="btn_allMenu split">• MENU</button>
+                </div>
+                <div class="col">
+                    <div class="contact_wrap">
+                        <a href="mailto:jy022222@naver.com">
+                            <span class="split">Contact now</span>
+                            <i class="ico">
+                                <svg width="18" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.407 7.033S9.225 3.74 11.937 2.58C12.975 2.117 16.5.632 16.5.632s1.627-.649 1.492.928c-.045.65-.407 2.922-.768 5.38-.543 3.478-1.13 7.281-1.13 7.281s-.09 1.067-.859 1.252c-.768.186-2.033-.649-2.26-.835-.18-.139-3.389-2.226-4.564-3.246-.316-.278-.677-.835.046-1.484 1.627-1.53 3.57-3.432 4.745-4.638.542-.556 1.084-1.855-1.175-.278-3.209 2.272-6.372 4.406-6.372 4.406s-.723.464-2.079.046C2.22 9.027.64 8.47.64 8.47s-1.085-.695.768-1.437Z"
+                                        fill="#fff" /></svg>
+                            </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="all_menu">
+        <div class="transition">
+            <div class="transition_line">Juyoung
+                Juyoung Juyoung</div>
+            <div class="transition_line">
+                publisherpublisherpublisher</div>
+            <div class="transition_line">Juyoung
+                Juyoung Juyoung</div>
+            <div class="transition_line">
+                publisherpublisherpublisher</div>
+            <div class="transition_line">Juyoung
+                Juyoung Juyoung</div>
+            <div class="transition_line">
+                publisherpublisherpublisher</div>
+            <div class="transition_line">Juyoung
+                Juyoung Juyoung</div>
+            <div class="transition_line">
+                publisherpublisherpublisher</div>
+            <div class="transition_line">Juyoung
+                Juyoung Juyoung</div>
+            <div class="transition_line">
+                publisherpublisherpublisher</div>
+            <div class="transition_line">Juyoung
+                Juyoung Juyoung</div>
+        </div>
+        <div class="inner">
+            <h1 class="logo">
+                <a href="#" class="split">Juyoung</a>
+            </h1>
+            <button class="btn_close">
+                <img src="./assets/images/btn_close.svg" alt="전체메뉴 닫기">
+                <p class="mo">∙ BACK</p>
+            </button>
+            <nav class="gnb">
+                <ul>
+                    <li>
+                        <a href="#" data-target=".sc_work">
+                            <span class="num">(01)</span>
+                            <p>
+                                <strong>Wor</strong>ks
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-target=".sc_service">
+                            <span class="num">(02)</span>
+                            <p>
+                                <strong>~20</strong>21
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-target=".sc_fragments">
+                            <span class="num">(03)</span>
+                            <p>
+                                <strong>frag</strong>ments
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-target=".footer">
+                            <span class="num">(04)</span>
+                            <p>
+                                <strong>cont</strong>act
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="img_wrap">
+                <div class="img_inner">
+                    <img src="https://changers.studio/assets/9532f60bc05ccd847598.jpg">
+                    <img src="https://changers.studio/assets/724d75ab9bacffa016c3.jpg">
+                    <img src="https://changers.studio/assets/46fd23f84774cb29c072.jpg">
+                    <img src="https://changers.studio/assets/a23ab78493cbaf9b8fb3.jpg">
+                    <img src="https://changers.studio/assets/2d53a23b6b337139b69c.jpg">
+                    <img src="https://changers.studio/assets/912d8a77a05f2c93b4a4.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <main class="container">
+        <section class="sc_main">
+            <div class="main">
+                <div class="inner">
+                    <div class="head_wrap">
+                        <p class="main_head">
+                            <span class="main_head_top split">Creative</span>
+                            <span class="main_head_mid split">도전적인</span>
+                            <span class="main_head_btm">
+                                <strong class="split">joyful</strong>
+                                <span class="split">Publisher</span>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="overtitle">
+                        <span class="split">SO,</span>
+                        <span>I</span>
+                        <span>A</span>
+                        <span>M</span>
+                        <span>-</span>
+                    </div>
+                </div>
+                <div class="bigTitle_wrap">
+                    <p class="big_title split">
+                        Publisher
+                    </p>
+                </div>
+            </div>
+            <video src="./assets/images/main_video.mp4" muted="muted" autoplay="autoplay" loop="loop"
+                class="main_video pc" poster="./assets/images/video_thum.jpeg"></video>
+        </section>
+        <section class="sc_about">
+            <div class="inner">
+                <div class="about_top">
+                    <h2 class="headline">
+                        <span class="split">Who</span>
+                        <strong class="split">Am I ?</strong>
+                    </h2>
+                    <p class="section_txt">
+                        <span class="section_txt_row">
+                            <span class="split">퍼블리싱을</span>
+                            <span class="split">사랑하고</span>
+                            <span class="split">즐길 줄 아는</span>
+                        </span>
+                        <span class="section_txt_row">
+                            <span class="split">사람이며,</span>
+                            <span class="split">새로운 테크닉을 배우는 것에 있어</span>
+                        </span>
+                        <span class="section_txt_row">
+                            <span class="split">도전 지향적이고</span>
+                            &nbsp;&nbsp;
+                            <span class="split">열정을 가지고</span>
+                            &nbsp;&nbsp;
+                            <span class="split">대합니다.</span>
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="about_txt_wrap">
+                <div class="about_txt">
+                    <img src="./assets/images/about_obj1.png" alt class="img1">
+                    <img src="./assets/images/about_obj2.png" alt class="img2">
+                    <img src="./assets/images/about_obj3.png" alt class="img3">
+                    <img src="./assets/images/about_obj4.png" alt class="img4">
+                    <div class="about_txt_inner">
+                        <span class="split">I'm</span>
+                        <span class="split strong">flexable,</span> <br>
+                        <span class="split">Outgoing,</span> <br>
+                        <span class="split strong">Antifragile,</span> <br>
+                        <span class="split">Creative <br>
+                            Publisher.
+                        </span><br>
+                        <span class="split strong">I'll be</span>
+                        <span class="split">helpful <br>
+                            and <br> enhancing
+                        </span> <br>
+                        <span class="split strong">business's</span> <br>
+                        <span class="split">appeal</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sc_work" id="sc_work">
+            <div class="work_head">
+                <div class="head_bg">
+                    <img src="./assets/images/bg_work.png" alt>
+                </div>
+                <div class="head_inner">
+                    <div class="txt_bg">
+                        <img src="./assets/images/txt_bg.svg" alt>
+                    </div>
+                    <div class="healine_wrap">
+                        <h2 class="headline">
+                            <strong>View pro</strong>jects
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="sticky_wrap">
+                <div class="work_body">
+                    <div class="work_body_inner">
+                        <div class="wrapper" data-color="1">
+                            <div class="item spo">
+                                <h3 class="title">Spotify</h3>
+                                <div class="info_wrap">
+                                    <div class="col_left">
+                                        <img src="https://blog.kakaocdn.net/dn/bxGuP1/btqVJRAagvH/igdcmkkwIGaG4sCzLAKfC1/img.png"
+                                            alt>
+                                        <div class="data">
+                                            <p class="tit">스포티파이 리뉴얼 코딩</p>
+                                            <p class="desc">
+                                                음악 스트리밍 어플인 spotify 사이트를 <br class="mo">
+                                                세련되고 현대적인 이미지를 최대한 살려 <br class="mo">
+                                                리뉴얼한 PC 적응형 사이트 입니다.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col_right">
+                                        <img src="./assets/images/spo_macbook.png" alt class="img1">
+                                        <img src="./assets/images/spo_imac.png" alt class="img2">
+                                    </div>
+                                </div>
+                                <div class="add_wrap">
+                                    <a href="https://jy022222.github.io/SPOTIFY/" target="_blank" class="btn_link">
+                                        <strong>Visit</strong> website
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item pepsi" data-color="2">
+                                <h3 class="title">Pepsi</h3>
+                                <div class="info_wrap">
+                                    <div class="col_left">
+                                        <img src="https://1000logos.net/wp-content/uploads/2017/05/Pepsi-Logo-1991.png"
+                                            alt>
+                                        <div class="data">
+                                            <p class="tit">펩시 리뉴얼 코딩</p>
+                                            <p class="desc">
+                                                펩시 특유의 젊은 에너지와 통통 튀는 느낌을 살려서 <br>
+                                                리뉴얼한 반응형 사이트 입니다.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col_right">
+                                        <img src="./assets/images/pepsi_phone.png" alt class="img1">
+                                        <img src="./assets/images/pepsi_macbook.png" alt class="img2">
+                                    </div>
+                                </div>
+                                <div class="add_wrap">
+                                    <a href="https://jy022222.github.io/PEPSI/" target="_blank" class="btn_link">
+                                        <strong>Visit</strong> website
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item enter">
+                            <h3 class="title">Enterprise <br class="mo"> Block Chain</h3>
+                            <div class="info_wrap">
+                                <div class="col_left">
+                                    <img src="https://www.enterpriseblockchain.io/assets/img/ebc_logo.svg" alt>
+                                    <div class="data">
+                                        <p class="tit">Enterprise Block Chain 사이트 클론코딩</p>
+                                        <p class="desc">
+                                            GSAP과 ScrollTrigger 플러그인을 사용하여 <br class="mo">
+                                            인터렉션을 구현한 PC 적응형 클론코딩 사이트 입니다.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col_right">
+                                    <img src="./assets/images/enter_macbook.png" alt class="img1">
+                                    <img src="./assets/images/enter_imac.png" alt class="img2">
+                                </div>
+                            </div>
+                            <div class="add_wrap">
+                                <a href="https://jy022222.github.io/ENTERPRISE/" target="_blank" class="btn_link">
+                                    <strong>Visit</strong> website
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item nice">
+                            <h3 class="title">NICE</h3>
+                            <div class="info_wrap">
+                                <div class="col_left">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="208" height="208"
+                                        viewBox="0 0 65 65">
+                                        <defs>
+                                            <clipPath id="a">
+                                                <path data-name="Rectangle 184173" transform="translate(.3 .299)"
+                                                    d="M0 0h41v41H0z"></path>
+                                            </clipPath>
+                                        </defs>
+                                        <path fill="#00388d" d="M0 0h65v65H0z"></path>
+                                        <path data-name="+"
+                                            d="m51.999 32.001-18.652-.864-.835-18.129h-.031l-.85 18.129-18.632.864v.035l18.631.791.85 19.17h.031l.835-19.17 18.653-.791Z"
+                                            fill="#f5a626"></path>
+                                        <g data-name="logo" clip-path="url(#a)" fill="#fff"
+                                            transform="translate(11.7 11.7)">
+                                            <path data-name="Path 104438"
+                                                d="M16.649 1.078v.6h-.3c-.833 0-1.77.167-1.77 2.53v9.058a13.358 13.358 0 0 0 .116 2.017h-.751L3.683 3.851v8.2c0 1.735.338 2.331 1.872 2.331h.343v.584H.617v-.584h.275c1.378 0 1.792-.94 1.792-2.534V3.472A1.788 1.788 0 0 0 .869 1.678H.617v-.6h4.059l8.869 9.985.04-.049V3.555a1.65 1.65 0 0 0-1.742-1.877h-.433v-.6Z">
+                                            </path>
+                                            <path data-name="Path 104439"
+                                                d="M30.418 14.968v-.585h.282c.716 0 1.475-.1 1.475-1.14V2.817c0-1.042-.759-1.142-1.475-1.142h-.282v-.6h6.079v.6h-.28c-.719 0-1.469.1-1.469 1.142v10.426c0 1.038.749 1.14 1.469 1.14h.28v.585Z">
+                                            </path>
+                                            <path data-name="Path 104440"
+                                                d="M13.818 40.746a11.5 11.5 0 0 1-4.559.9c-4.481 0-7.806-2.448-7.806-7.445 0-4.461 3.609-7.048 7.71-7.048 2.328 0 3.082.716 4.955.987l.162 3.338-.6.075c-.556-1.939-1.474-3.525-4.463-3.525-3.264 0-4.983 2.569-4.983 6.054 0 3.321 1.7 6.685 5.459 6.685a4.057 4.057 0 0 0 4.061-3.32l.563.079Z">
+                                            </path>
+                                            <path data-name="Path 104441"
+                                                d="M27.524 41.348v-.6h.286c.718 0 1.472-.1 1.472-1.131V29.182c0-1.044-.754-1.14-1.472-1.14h-.283v-.592h10.064a29.951 29.951 0 0 0 .037 3.044l-.605.162c-.1-1.3-.332-2.334-2.424-2.334H31.83v5.217h2.369c1.2 0 1.451-.668 1.578-1.75h.592v4.6l-.592.121c-.127-1.193-.18-1.962-1.559-1.962H31.83v4.634c0 1.3 1.155 1.3 2.424 1.3 2.4 0 3.448-.162 4.045-2.437l.561.142c-.264 1.05-.5 2.111-.674 3.168Z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                    <div class="data">
+                                        <p class="tit">NICE 클론코딩</p>
+                                        <p class="desc">
+                                            GSAP과 ScrollTrigger, CountUp 플러그인을 이용하여 <br class="mo">
+                                            인터렉션을 구현하는 데 중점을 두어 클론코딩 한 <br>
+                                            반응형 사이트입니다.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col_right">
+                                    <img src="./assets/images/nice_phone.png" alt class="img1">
+                                    <img src="./assets/images/nice_macbook.png" alt class="img2">
+                                </div>
+                            </div>
+                            <div class="add_wrap">
+                                <a href="https://jy022222.github.io/NICE/" target="_blank" class="btn_link">
+                                    <strong>Visit</strong> website
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item hd">
+                            <h3 class="title">Hyundai <br class="mo"> D.P Store</h3>
+                            <div class="info_wrap">
+                                <div class="col_left">
+                                    <img src="https://i.namu.wiki/i/TOdncoVVu5A95Dkn5ucyy_Du_vMUwepGR2mz-v3wNYy_3iinmhFsnGWfXRndJsTbTA3uxPyM6oKQmptyUdmceA.svg"
+                                        alt>
+                                    <div class="data">
+                                        <p class="tit">현대백화점 사이트 클론코딩</p>
+                                        <p class="desc">
+                                            json을 이용해 직접 데이터를 담아두고
+                                            데이터 바인딩을 <br>
+                                            통해 컨텐츠와 이미지를 불러오는 작업을 중점으로 한 <br class="mo">
+                                            PC, 모바일 적응형 사이트 입니다.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col_right">
+                                    <img src="./assets/images/hd_phone.png" alt class="img1">
+                                    <img src="./assets/images/hd_macbook.png" alt class="img2">
+                                </div>
+                            </div>
+                            <div class="add_wrap">
+                                <a href="https://jy022222.github.io/HYUNDAI/mo/index.html" target="_blank"
+                                    class="btn_link">
+                                    <strong>Visit</strong> website (MO) |
+                                </a>
+                                <a href="https://jy022222.github.io/HYUNDAI/pc/index.html" target="_blank"
+                                    class="btn_link">
+                                    <strong>Visit</strong> website (PC)
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item seoul">
+                            <h3 class="title">Seoul City</h3>
+                            <div class="info_wrap">
+                                <div class="col_left">
+                                    <img src="https://www.seoul.go.kr/newbrand/assets/images/new/img-brandbi.png" alt
+                                        style="background: #fff;">
+                                    <div class="data">
+                                        <p class="tit">서울 시청 사이트 클론코딩</p>
+                                        <p class="desc">
+                                            서울시청사이트를 키보드 탭으로도 이동가능하게 <br>
+                                            접근성에 중점을 두고 클론코딩한 PC적응형 사이트 입니다
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col_right">
+                                    <img src="assets/images/seoul_macbook.png" alt class="img1">
+                                    <img src="./assets/images/seoul_mac.png" alt class="img2">
+                                </div>
+                            </div>
+                            <div class="add_wrap">
+                                <a href="https://jy022222.github.io/SEOULCITY/" target="_blank" class="btn_link">
+                                    <strong>Visit</strong> website
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sc_service">
+            <div class="service_bg"></div>
+            <div class="inner">
+                <div class="tit_wrap">
+                    <h2 class="headline">
+                        works <strong>2021~</strong>
+                    </h2>
+                </div>
+                <div class="service_list">
+                    <div class="item">
+                        <div class="col_left">
+                            <div class="box">
+                                <div class="labels_wrap">
+                                    <div class="labels">
+                                        <div class="labels_inner">
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info_wrap">
+                                    <div class="desc">
+                                        <p class="txt">
+                                            한국교육시설안전원 사업인 그린스마트스쿨 <br> 프론트/포털 사이트를 구축하였습니다.
+                                        </p>
+                                        <ul class="info_list">
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JS</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col_right">
+                            <p class="name">그린스마트스쿨 어드민/프론트 반응형 사이트 <br class="pc"> 구축,유지보수</p>
+                            <span class="add">
+                                <strong>Res</strong>ponsive
+                            </span>
+                            <span class="add">Building <strong>work</strong></span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col_left">
+                            <div class="box">
+                                <div class="labels_wrap">
+                                    <div class="labels">
+                                        <div class="labels_inner">
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info_wrap">
+                                    <div class="desc">
+                                        <p class="txt">
+                                            초록우산어린이재단 메인 페이지와 서브페이지 일부를 <br class="mo">
+                                            리뉴얼하는 작업을 진행하였습니다.
+                                        </p>
+                                        <ul class="info_list">
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JS</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col_right">
+                            <p class="name">초록우산어린이재단 적응형 사이트 리뉴얼</p>
+                            <span class="add">
+                                <strong>Ren</strong>ewal
+                            </span>
+                            <span class="add">Adaptive <strong>page</strong></span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col_left">
+                            <div class="box">
+                                <div class="labels_wrap">
+                                    <div class="labels">
+                                        <div class="labels_inner">
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info_wrap">
+                                    <div class="desc">
+                                        <p class="txt">
+                                            미국 삼성 HVAC APP을 리뉴얼하는 작업을 진행하였습니다.
+                                        </p>
+                                        <ul class="info_list">
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JS</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col_right">
+                            <p class="name">삼성 HVAC APP 리뉴얼</p>
+                            <span class="add">
+                                <strong>Ren</strong>ewal
+                            </span>
+                            <span class="add">Adaptive <strong>page</strong></span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col_left">
+                            <div class="box">
+                                <div class="labels_wrap">
+                                    <div class="labels">
+                                        <div class="labels_inner">
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info_wrap">
+                                    <div class="desc">
+                                        <p class="txt">
+                                            태블릿 전용 무인 예약 시스템 화면을 구현하는 <br class="mo">
+                                            작업을 진행하였습니다.
+                                        </p>
+                                        <ul class="info_list">
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JS</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col_right">
+                            <p class="name">CNK Holdings 무인 예약 화면 구축</p>
+                            <span class="add">
+                                <strong>Building</strong>work
+                            </span>
+                            <span class="add">Mobile <strong>page</strong></span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col_left">
+                            <div class="box">
+                                <div class="labels_wrap">
+                                    <div class="labels">
+                                        <div class="labels_inner">
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                            <span>Publish</span>
+                                            <span class="strong">Publish</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info_wrap">
+                                    <div class="desc">
+                                        <p class="txt">
+                                            좋은정보시스템 소프트타운 프론트 페이지와 관리자 페이지를 <br class="mo">
+                                            구축하는 작업을 진행하였습니다.
+                                        </p>
+                                        <ul class="info_list">
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JS</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col_right">
+                            <p class="name">소프트타운 어드민/프론트 <br class="mo"> 반응형 사이트 구축</p>
+                            <span class="add">
+                                <strong>Building</strong>work
+                            </span>
+                            <span class="add">Responsive <strong>page</strong></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sc_fragments">
+            <div class="sticky_wrap">
+                <div class="fragments_top">
+                    <div class="box">
+                        <p class="split st1">part</p>
+                        <p>of</p>
+                    </div>
+                    <div class="box">
+                        <div class="tit_inner">
+                            <div class="txt">
+                                <p class="split st2">daily</p>
+                                <p class="split st3">life</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="inner">
+                    <div class="fragments_title_wrap">
+                        <h2 class="big_title split">fragments</h2>
+                    </div>
+                </div>
+                <div class="item_wrap">
+                    <div class="item_box">
+                        <div class="item large">
+                            <div class="thumb">
+                                <img src="./assets/images/daily.jpeg" alt>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_box">
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="./assets/images/daily3.jpeg" alt>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_box">
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="./assets/images/daily5.jpeg" alt>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_box">
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="./assets/images/daily9.jpeg" alt>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_box">
+                        <div class="item">
+                            <div class="item_inner">
+                                <div class="thumb">
+                                    <img src="./assets/images/daily2.jpg" alt>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_box">
+                        <div class="item large">
+                            <div class="item_inner">
+                                <div class="thumb">
+                                    <img src="./assets/images/daily10.jpeg" alt>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_box">
+                        <div class="item large">
+                            <div class="coment">
+                                <img src="./assets/images/smile.png">
+                                <div class="coment_bg"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <h2 class="headline big_title">
+            <span class="split">Get</span>
+            <span class="split">ready</span>
+            <span class="split">to</span>
+            <span class="split">Roak</span>
+            <span class="split">and</span>
+            <span class="split">Roll!</span>
+        </h2>
+        <div class="inner">
+            <div class="col_left">
+                <span class="tit split">E-mail:</span>
+                <a href="mailto:jy022222@naver.com" class="email split">jy022222@naver.com</a>
+            </div>
+            <div class="col_right">
+                <div class="txt_box">
+                    <span class="split">인생은 짧고</span> <strong class="split">exciting</strong> <span
+                        class="split">한</span> <br>
+                    <strong class="split">동료를 찾는다면</strong> <span class="split">지금 바로</span> <br>
+                    <span class="split">연락주세요</span> <strong class="split">Yaaay!</strong>
+                </div>
+            </div>
+        </div>
+        <div class="footer_smile">
+            <div class="card">
+                <span class="front">
+                    <img src="./assets/images/smile_footer.png" alt="Smile">
+                </span>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="col">
+                <img src="./assets/images/num_20.svg" alt="20">
+                <span>All</span>
+            </div>
+            <span>rights</span>
+            <div class="col">
+                <img src="./assets/images/num_23.svg" alt="23">
+                <span>reserved</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
